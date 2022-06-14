@@ -73,3 +73,5 @@ media/
 staticfiles
 debug
 */migrations/*.py
+
+frontend/node_modules
