@@ -36,7 +36,8 @@ INSTALLED_APPS = [
 ]
 
 LOCAL_APPS = [
-    'leads.apps.LeadsConfig'
+    'leads.apps.LeadsConfig',
+    'frontend.apps.FrontendConfig',
 ]
 
 PACKAGE_APPS = [

@@ -6,6 +6,7 @@ from django.urls import path, include
 from leads.router import router
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', include('frontend.urls')),
+    path('api/', include(router.urls)),
     path('admin/', admin.site.urls),
 ]
